@@ -6,10 +6,10 @@ import atexit
 
 # MySQL Connection
 conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Welcome@2020",
-    database="task_manager"
+    host="HOST",
+    user="USER",
+    password="YOUR_PASSWORD",
+    database="DATABASE_NAME"
 )
 cursor = conn.cursor()
 
